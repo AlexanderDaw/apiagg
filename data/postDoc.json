@@ -1,0 +1,31 @@
+{
+  "requests":[
+    {
+        "requestUrl":"http://localhost:8000/1.0/varresp/simulate",
+        "method":"POST",
+        "body":"{\"responseTime\": 200}"
+      },
+         {
+        "requestUrl":"http://localhost:8000/1.0/varresp/simulate",
+        "method":"POST",
+        "body":"{\"responseTime\": 200}"
+      },
+         {
+        "requestUrl":"http://localhost:8000/1.0/varresp/simulate",
+        "method":"POST",
+        "body":"{\"responseTime\": 200}"
+      },
+         {
+        "requestUrl":"http://localhost:8000/1.0/varresp/simulate",
+        "method":"POST",
+        "body":"{\"responseTime\": 200}"
+      },
+         {
+        "requestUrl":"http://localhost:8000/1.0/varresp/simulate",
+        "method":"POST",
+        "body":"{\"responseTime\": 200}"
+      }
+   ],
+  "timeout":2000,
+  "concurrency": 1
+}
