@@ -19,6 +19,7 @@ The goal of this program is to demonstrate golangs ability
 to quickly enable concurrent execution of REST requests
  */
 func main(){
+	//Properties Parsing.
 
 	var (
 		httpAddr     = flag.String("http.addr", ":8000", "Address for HTTP (JSON) server")
@@ -26,7 +27,6 @@ func main(){
 		responseDelay = flag.Int("delay", 30, "The number of ms to wait for default response times")
 	)
 
-	//Properties Parsing.
 	AggService, err := services.InitializeAggregationService(*concurrencyCount)
 	if err != nil {
 		log.Fatal("Error creating aggregation service", err.Error())

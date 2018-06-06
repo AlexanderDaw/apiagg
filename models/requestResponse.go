@@ -1,4 +1,4 @@
-package model
+package models
 
 type RequestResponse struct {
 	Url	string				`json:"url"`
